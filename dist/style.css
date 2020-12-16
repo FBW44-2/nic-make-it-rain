@@ -1,0 +1,24 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: url(img/cage-rain.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.rain {
+  height: 100%;
+  background: url(img/rain.png);
+  animation: rain 0.3s linear infinite;
+}
+
+@keyframes rain {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  100% {
+    background-position: 20% 100%;
+  }
+}
